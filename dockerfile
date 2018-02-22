@@ -1,7 +1,7 @@
 FROM mesosphere/aws-cli:1.14.5
 RUN apk -v --update add \
         git \
-        ssh \
+        openssh \
         tar \
         gzip \
         ca-certificates 
